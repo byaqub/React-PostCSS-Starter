@@ -48,10 +48,11 @@ projectname/
 ```
 ## Using PostCSS
 
-You can edit and generate CSS files as you wish inside the styles folder of the project. To modify the `src/styles.css` file run gulp from the CLI by typing in the command `gulp`.
+You can edit and generate CSS files as you wish inside the styles folder of the project as long as you properly import them into the `styles/styles.css` file. To modify the `src/styles.css` file it's recommended to run the according gulp task from the CLI by typing in the command `gulp`. Otherwise all the changes made will be overwritten the next time gulp runs.
+
 The project is set up in a way that gulp will start watching the whole `src/styles` folder for any changes and regenerate the `src/styles.css` file accordingly. 
 
-_Make sure to have gulp running when modifying/generating CSS files_
+###Make sure to have gulp running when modifying/generating CSS files
 
 Once you save a CSS file you should see a related message of completion for the styles task.
 
