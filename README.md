@@ -34,7 +34,7 @@ projectname/
   package.json
   public/
     index.html
-    favicon.ico
+    manifest.json
   src/
     App.js
     index.js
