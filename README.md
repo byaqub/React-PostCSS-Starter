@@ -52,7 +52,7 @@ You can edit and generate CSS files as you wish inside the styles folder of the 
 
 The project is set up in a way that gulp will start watching the whole `src/styles` folder for any changes and regenerate the `src/styles.css` file accordingly. 
 
-###Make sure to have gulp running when modifying/generating CSS files
+### Make sure to have gulp running when modifying/generating CSS files
 
 Once you save a CSS file you should see a related message of completion for the styles task.
 
