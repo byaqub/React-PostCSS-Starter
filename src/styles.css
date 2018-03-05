@@ -350,7 +350,29 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background: red;
 }
+
+@media(min-width: 530px){
+
+#root {
+    background: green
+}
+  }
+
+@media(min-width: 800px){
+
+#root {
+    background: yellow
+}
+  }
+
+@media(min-width: 1200px){
+
+#root {
+    background: blue
+}
+  }
 
 .container{
   background: #e4e0da;
